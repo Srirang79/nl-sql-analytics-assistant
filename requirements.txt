@@ -1,0 +1,6 @@
+pandas>=2.0
+sqlglot>=25.0
+streamlit>=1.50
+anthropic>=0.40      # only needed for provider "anthropic"
+openai>=1.40         # only needed for provider "openai"
+pytest>=7.0          # only needed to run the tests

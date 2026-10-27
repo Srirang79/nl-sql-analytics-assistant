@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.DS_Store
+
+# the raw Kaggle files and the full database are large: download/build them locally
+data/raw/*
+!data/raw/.gitkeep
+data/olist.db
+evals/results.json
